@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body> 
+
+    <!-- Nab bar  -->
+
+   <nav>
+    <div class="logo">
+        <h1>Harsh Gupta</h1>
+    </div>
+    <ul id="menuList">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+   </nav>
+
+    <!-- Home code  -->
+
+   <section class="home" id="home">
+    <div class="home-text">
+        <div class="slide">
+            <span class="one">Hello</span>
+            <span class="two">I'm</span>
+        </div>
+        <h1>Harsh Gupta</h1>
+        <h3>Website <span>Designer.</span></h3>
+        <!-- <span id="element"></span> -->
+        <p id="element"><p>
+        <!-- <p>I am pursuing Computer Science Engineering @SB Jain collage. Cgpa-7+</p> -->
+        <div class="button">
+            <a href="resume/HarshGupta_resume.pdf" class="btn" download> Resume </a>
+        </div>
+    </div>
+</section>
+
+    <!-- about code -->
+
+<section id="about" class="about">
+    <div class="home-text main-text">
+        <h2><span>My </span>Learning..</h2>
+    </div>
+    
+    <div class="skills">
+        <div class="progress-bar-container">
+            <h2>Java</h2>
+            <div class="progress-bar">
+                <span class="percentage java"></span>
+            </div>
+        </div>
+
+        <div class="progress-bar-container">
+            <h2>DSA</h2>
+            <div class="progress-bar">
+                <span class="percentage dsa"></span>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="progress-bar-container">
+                <h2>Python</h2>
+                <div class="progress-bar">
+                    <span class="percentage python"></span>
+                </div>
+            </div>
+
+            <div class="progress-bar-container">
+                <h2>Mern Stack</h2>
+                <div class="progress-bar">
+                    <span class="percentage html"></span>
+                </div>
+                
+            </div>
+
+        <div class="progress-bar-container">
+            <h2>Mongodb</h2>
+            <div class="progress-bar">
+                <span class="percentage css"></span>
+            </div>
+        </div>
+
+        <div class="progress-bar-container">
+            <h2>JavaScript</h2>
+            <div class="progress-bar">
+                <span class="percentage javascript"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="experience">
+        <h1>Experience</h1>
+        <span><div>Web Development(Intern) - Codemate | 05/2024-06/2024 </div></span>
+        <div class="intern">
+            <p>•Proficiently managed programming for Front-end & back-end of website using HTML, CSS, Java Script, Node js, MongoDB.</p>
+            <p>•Successfully resolve bugs ,leading to notable improvement in web functionality and speed by 75%.</p>
+    </div>
+    </div>
+    
+</section>
+
+    <!-- service code -->
+    <section class="services" id="services">
+        <div class="main-text">
+            <h2><span>My </span>Services</h2>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-mobile-alt'></i>
+                </div>
+                <h3>Web Design</h3>
+                <p>Crafting visually appealing and user-friendly websites tailored to your brand. We focus on creating responsive, modern designs that provide a seamless experience across all devices.</p>
+                <a href="#contact" class="btn">Know More</a>
+            </div>
+    
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>Canva Design</h3>
+                <p> Delivering eye-catching and customizable Canva templates for your branding, marketing, and social media needs.We create versatile, professional designs that empower you to easily edit and showcase your unique style.</p>
+                <a href="#contact" class="btn">Know More</a>
+            </div>
+    
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-edit-alt'></i>
+                </div>
+                <h3>E-commerce Design</h3>
+                <p>We specialize in creating visually appealing and user-friendly online stores tailored to your brand. Our designs prioritize seamless navigation, mobile responsiveness,and optimized layouts to enhance the shopping experience and boost sales.</p>
+                <a href="#contact" class="btn">know More</a>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- project code -->
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2><span>Latest </span>Project</h2>
+        </div>
+        <div class="portfolio-content">
+
+            <div class="border-white">
+                <div class="row">
+                    <img src="img/project5.png" ><br>
+                    <div class="flex">
+                        <h5 style="color: white;">AI & OCR Based Doctor Prescription Reader </h5>
+                        <i class="fa-brands fa-github"> </i>
+                        <a href="http://projectmain-six.vercel.app"><h5 style="color: white;">GitHub-Code</h5></a>
+                        <a href="http://projectmain-six.vercel.app"><h5 style="color: rgb(0, 255, 0);" >LIVE</h6></a>
+                    </div>
+                        <p> Led the creation of a complete web application stack (React, Node.js/Express.js), achieving an estimated 15% accelerated user task completion through improved frontend and backend design
+                            Achieved 99% cross-device compatibility by mastering the usage of a responsive UI with Tailwind CSS and
+                            using Vite to minimize build times by about 20%.
+                            Pioneered Google Generative AI API integration for OCR, successfully extracting text from more than 1,000  
+                            medical images at a 95% rate of accuracy, improving data processing abilities. 
+             </p>
+                </div>
+            </div>
+
+            <div class="border-white">
+                <div class="row">
+                    <img src="img/project6.png" ><br>
+                    <div class="flex">
+                        <h5 style="color: white;">	Havenly- Online Hotels Booking</h5>
+                        <i class="fa-brands fa-github"> </i>
+                        <a href="https://github.com/Harshgupta-web/Havenly-online-hotels-booking"><h5 style="color: white;">GitHub-Code</h5></a>
+                    </div>
+                        <p> Developed a full-stack web application using Node.js and Express.js, implementing RESTful APIs for managing user accounts, listings, and reviews. Utilized EJS as the templating engine for dynamic content rendering, and integrated MongoDB for data storage. Designed responsive user interfaces with CSS, enhancing user experience. Employed middleware for error handling and asynchronous operations, ensuring robust application performance. Collaborated in a version-controlled environment using Git, facilitating efficient project management and deployment. </p>
+                </div>
+            </div>
+
+            <div class="border-white">
+                <div class="row">
+                    <img src="img/project1.png" ><br>
+                    <div class="flex">
+                        <h5 style="color: white;">Spotify Clone</h5>
+                        <i class="fa-brands fa-github"> </i>
+                        <a href="https://github.com/Harshgupta-web/music-website/"><h5 style="color: white;">GitHub-Code</h5></a>
+                    </div>
+                        <p>Develop a fully functional music streaming application inspired by Spotify. Our clone features user-friendly interfaces, personalized playlists, seamless audio streaming.</p>
+                </div>
+            </div>
+
+            <div class="border-white">
+                <div class="row">
+                    <img src="img/project4.png" ><br>
+                    <div class="flex">
+                        <h5 style="color: white;">Ai Powered Health Assistant</h5>
+                        <i class="fa-brands fa-github"> </i>
+                        <a href="https://github.com/Harshgupta-web/AI-Powered-Health-Assistant"><h5 style="color: white;">GitHub-Code</h5></a>
+                    </div>
+                        <p> Create a high-quality video streaming platform modeled after Netflix. Our clone includes features like user-friendly interfaces.</p>
+                </div>
+            </div>
+    
+            <div class="border-white">
+                <div class="row">
+                    <img src="img/project2.png" ><br>
+                    <div class="flex">
+                        <h5 style="color: white;">Netflix Clone</h5>
+                        <i class="fa-brands fa-github"> </i>
+                        <a href="https://github.com/Harshgupta-web/netflix-clone"><h5 style="color: white;">GitHub-Code</h5></a>
+                    </div>
+                        <p> Create a high-quality video streaming platform modeled after Netflix. Our clone includes features like user-friendly interfaces.</p>
+                </div>
+            </div>
+        </div>
+    
+    </section> 
+
+    <!-- contact code -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            <h4>If you have any project in your mind.</h4>
+            <p>I'm a website Designer - creating bold & brave interface design for compaines all across the world.</p>
+            <div class="list">
+                <li><h3><a href="tel://8446605327">+91 8446605327</a></h3></li>
+                <li><h3><a href="mailto:harshguptacse22@gmail.com">harshguptacse22@gmail.com</a></h3></li>
+            </div>
+    
+        </div>
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="f88e066e-c8e8-469f-9f13-d44c2ecd6942">
+                <input type="name" name="first_name" placeholder="Your Name " required>
+                <input type="email" name="email" placeholder="Your Email " required>
+                <input type="number" name="number" placeholder="your Mobile Number" required>
+                <textarea name="message" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+        </div>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/harsh-gupta-60554b258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        </div>
+        
+    </section>
+
+   <script>
+    let menuList=document.getElementById("menuList")
+    menuList.style.maxHeight="0px";
+    function toggleMenu(){
+        if(menuList.style.maxHeight=="0px"){
+            menuList.style.maxHeight="340px";
+        }else{
+            menuList.style.maxHeight="0px";
+        }
+    }
+   </script>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['I am pursuing Computer Science Engineering @SB Jain collage...', 'Cgpa: 7+', 'Full Stack Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
